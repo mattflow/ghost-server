@@ -32,3 +32,5 @@ EMAIL=you@yourdomain.com
 ```
 docker-compose up -d
 ```
+
+5. Set up your site at https://<your domain>/ghost
