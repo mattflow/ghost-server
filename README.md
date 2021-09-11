@@ -3,6 +3,8 @@
 A simple compose file to start up a ghost site
 with auto renewing certs verified by letsencrypt
 
+Example site using this config: https://mattflow.codes
+
 ## Prerequsites
 
 1. Docker and docker-compose are installed on the host server
