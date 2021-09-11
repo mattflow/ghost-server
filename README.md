@@ -16,7 +16,7 @@ __Note:__ Remove `www.${DOMAIN}` from `VIRTUAL_HOST` and `LETSENCRYPT_HOST` if y
 2. Clone this repo and enter the directory 
 
 ```
-git clone <url>
+git clone https://github.com/mattflow/ghost-server.git
 cd ghost-server
 ```
 
