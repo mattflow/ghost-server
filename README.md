@@ -10,7 +10,7 @@ Example site using this config: https://mattflow.codes
 1. Docker and docker-compose are installed on the host server
 2. Proper DNS records are configured for your server and domain
 
-__Note:__ Remove `www.${DOMAIN}` from `VIRTUAL_HOST` and `LETSENCRYPT_HOST` if you don't plan on setting up a www subdomain.
+__Note:__ Remove `,www.${DOMAIN}` from `VIRTUAL_HOST` and `LETSENCRYPT_HOST` if you don't plan on setting up a www subdomain.
 
 ## Set up
 
