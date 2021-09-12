@@ -6,7 +6,7 @@ verified by letsencrypt
 
 Example site using this config: https://mattflow.codes
 
-## Prerequsites
+## Prerequisites
 
 1. Docker and docker-compose are installed on the host server
 2. Proper DNS records are configured for your domain
