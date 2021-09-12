@@ -1,14 +1,15 @@
 # Ghost Server
 
-A simple compose file to start up a ghost site
-with auto renewing certs verified by letsencrypt
+A simple compose file to start up a [ghost](https://ghost.org) site
+with an auto renewing [A+ ranked cert](https://www.ssllabs.com/ssltest/analyze.html?d=mattflow.codes)
+verified by letsencrypt
 
 Example site using this config: https://mattflow.codes
 
 ## Prerequsites
 
 1. Docker and docker-compose are installed on the host server
-2. Proper DNS records are configured for your server and domain
+2. Proper DNS records are configured for your domain
 
 __Note:__ Remove `,www.${DOMAIN}` from `VIRTUAL_HOST` and `LETSENCRYPT_HOST` if you don't plan on setting up a www subdomain.
 
@@ -22,7 +23,7 @@ git clone https://github.com/mattflow/ghost-server.git
 cd ghost-server
 ```
 
-3. Add a .env file with `DOMAIN` and `EMAIL` variables
+3. Add a `.env` file with `DOMAIN` and `EMAIL` variables
 
 ```
 DOMAIN=yourdomain.com
