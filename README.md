@@ -11,12 +11,12 @@ Example site using this config: https://mattflow.codes
 1. Docker and docker-compose are installed on the host server
 2. Proper DNS records are configured for your domain
 
-__Note:__ Remove `,www.${DOMAIN}` from `VIRTUAL_HOST` and `LETSENCRYPT_HOST` if you don't plan on setting up a www subdomain.
+**Note:** Remove `,www.${DOMAIN}` from `VIRTUAL_HOST` and `LETSENCRYPT_HOST` if you don't plan on setting up a www subdomain.
 
 ## Set up
 
 1. Log into your server
-2. Clone this repo and enter the directory 
+2. Clone this repo and enter the directory
 
 ```
 git clone https://github.com/mattflow/ghost-server.git

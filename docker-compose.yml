@@ -1,10 +1,10 @@
-version: '3'
+version: "3"
 
 services:
   nginx:
     image: jwilder/nginx-proxy
     labels:
-        com.github.jrcs.letsencrypt_nginx_proxy_companion.nginx_proxy: "true"
+      com.github.jrcs.letsencrypt_nginx_proxy_companion.nginx_proxy: "true"
     restart: always
     ports:
       - "80:80"
@@ -33,7 +33,7 @@ services:
       # - ACME_CA_URI=https://acme-staging-v02.api.letsencrypt.org/directory # Test certs
     depends_on:
       - nginx
-  
+
   ghost:
     image: ghost:4.13-alpine
     restart: always
