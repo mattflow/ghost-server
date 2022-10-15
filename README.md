@@ -4,8 +4,6 @@ A simple compose file to start up a [ghost](https://ghost.org) site
 with an auto renewing [A+ ranked cert](https://www.ssllabs.com/ssltest/analyze.html?d=mattflow.codes)
 verified by letsencrypt
 
-Example site using this config: https://mattflow.codes
-
 ## Prerequisites
 
 1. Docker and docker-compose are installed on the host server
